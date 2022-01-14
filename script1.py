@@ -1,3 +1,3 @@
 import requests
-result = requests.get("https://github.com/v6k/CMPUT404LAB1/blob/main/script1.py")
-print(result.status_code)
+result = requests.get("https://raw.githubusercontent.com/v6k/CMPUT404LAB1/main/script1.py")
+print(result.text)
